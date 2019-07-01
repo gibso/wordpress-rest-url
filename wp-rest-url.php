@@ -6,7 +6,6 @@
  * Version: 0.0.1
  * Author: Oliver Görtz
  */
-
 add_filter('rest_url', 'use_site_url_for_rest_url');
 
 function use_site_url_for_rest_url($url)
